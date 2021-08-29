@@ -32,7 +32,7 @@ h2, h4, h3 {
 }
 
 #person-buttons {
-    background-color: teal;
+    background-color: cadetblue;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
