@@ -1,21 +1,31 @@
 const people = [{
   "id": 1,
-  "name": "William",
+  "name": "William Phillips",
   "age": 23
 },
 {
   "id": 2,
-  "name": "Jenny",
+  "name": "Jenny Pops",
   "age": 25
 },
 {
   "id": 3,
-  "name": "Phillip",
+  "name": "Phillip Williams",
   "age": 45
+},
+{
+  "id": 4,
+  "name": "Sally Jones",
+  "age": 32
+},
+{
+  "id": 5,
+  "name": "Jorge Lopez",
+  "age": 55
 }
 ]
 
-let globalId = 4
+let globalId = 6
 
 module.exports = {
   getFortune: (req, res) => {
