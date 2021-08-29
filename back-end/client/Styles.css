@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+button {
+    color:rebeccapurple;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: wheat;
+    background-color: rgb(31, 32, 97);
+    cursor: pointer;
+}
+
+#swPlanetSelect {
+    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-740x463.jpg');
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+#planetNames {
+    margin-right: 200px;
+    margin-top: 25px;
+}
+#options {
+    margin-top: 10px;
+}
+
+h2, h4, h3 {
+    color: whitesmoke;
+}
+
+#person-buttons {
+    background-color: teal;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#complimentButton, #fortuneButton {
+    height: 30px;
+    width: 200px;
+}
+
+#fanclub {
+    background-color: thistle;
+    height: 100vh;
+}
+
+#person {
+    color: black;
+}
+
+#club {
+    display: flex;
+    justify-content: center;
+}
+
+#club-name {
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input, #addpeople {
+    margin-left: 10px;
+}
+
+#members {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#people-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet"  type = "text/css" href="Styles.css"/>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <section id="person-buttons">
+      <button id="complimentButton">Get a compliment</button>
+      <button id="fortuneButton">Here is your FORTUNE</button>
+    </section>
+
+    <section id="swPlanetSelect">
+      <section id="options">
+        <select id="param-input">
+          <option value="0">Select</option>
+          <option value="1">Tatioone</option>
+          <option value="2">Alderaan</option>
+          <option value="3">Yavin IV</option>
+          <option value="4">Hoth</option>
+          <option value="5">Degobah</option>
+          <option value="6">Bespin</option>
+        </select>
+        <button id="get-info">View Info</button>
+      </section>
+      <section id="planetNames"></section>
+    </section>
+
+    <section id="fanclub">
+      <div id="club">
+        <h1 id="club-name">Star Wars Fanclub</h1>
+      </div>
+      <form>
+        <input type="text" id="personName" placeholder="Name"/>
+        <input type="text" id="personAge"  placeholder="Age"/>
+        <button id="addpeople">Submit</button>
+      </form>
+      <div id="members">
+        <section id="people-info"></section>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="Index.js"></script>
+  </body>
+</html>
