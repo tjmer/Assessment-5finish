@@ -45,12 +45,15 @@ h2, h4, h3 {
 }
 
 #fanclub {
-    background-color: thistle;
+    background-image: url('https://media.istockphoto.com/photos/fan-club-wooden-letterpress-concept-picture-id466090278?k=20&m=466090278&s=612x612&w=0&h=3BikNvs_ia4zGzHxwe3yFgTdBbcXERQcpmIUuYU51FI=');
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #person {
-    color: blanchedalmond;
+    color: black;
     display: flex;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -91,15 +94,16 @@ input, #addpeople {
 }
 
 #box {
-    border: solid black;
+    border: 2px solid black;
     background-color: cadetblue;
-    color: blanchedalmond;
+    color: black;
     width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    border-radius: 20%;
 }
 
 #remove-button {
