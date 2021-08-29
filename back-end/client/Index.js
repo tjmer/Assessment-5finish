@@ -91,9 +91,10 @@ function planetInfo (req, res){
 function peopleStuff (people){
   const displayPlate = document.createElement('div')
 
-  displayPlate.innerHTML = `<h4 id="person">${people.name}</h4
-  <p>Age: ${people.age}</p>
-  <button onclick='removePerson(${people.id})'>Remove</button>
+  displayPlate.innerHTML = `<section id = "box"><h4 id="person">${people.name}</h4
+  <p id = "oldness">Age: ${people.age}</p>
+  <button id = "remove-button" onclick='removePerson(${people.id})'>Remove</button>
+  </section>
   `
   peopleBox.appendChild(displayPlate)
 }
