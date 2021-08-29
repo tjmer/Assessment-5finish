@@ -50,8 +50,12 @@ h2, h4, h3 {
 }
 
 #person {
-    color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 #club {
     display: flex;
@@ -61,6 +65,7 @@ h2, h4, h3 {
 #club-name {
     font-weight: 1000;
     font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 form {
@@ -82,4 +87,21 @@ input, #addpeople {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#box {
+    border: solid black;
+    background-color: cadetblue;
+    color: blanchedalmond;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#remove-button {
+    margin-bottom: 5px;
 }
