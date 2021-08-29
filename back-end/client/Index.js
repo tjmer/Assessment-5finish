@@ -92,7 +92,7 @@ function peopleStuff (people){
   const displayPlate = document.createElement('div')
 
   displayPlate.innerHTML = `<section id = "box"><h4 id="person">${people.name}</h4
-  <p id = "oldness">Age: ${people.age}</p>
+  <p>Age: ${people.age}</p>
   <button id = "remove-button" onclick='removePerson(${people.id})'>Remove</button>
   </section>
   `
